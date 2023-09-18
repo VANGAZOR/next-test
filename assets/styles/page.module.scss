@@ -1,0 +1,21 @@
+@mixin flex-direction-gap-width($direction, $gap, $width) {
+	display: flex;
+	flex-direction: $direction;
+	gap: $gap;
+	width: $width;
+}
+
+.main {
+	@include flex-direction-gap-width(column, 15px, 500px);
+	margin: 150px auto;
+	> .buttonbox {
+		@include flex-direction-gap-width(row, 10px, max-content);
+	}
+	> .cardbox {
+		@include flex-direction-gap-width(column, 10px, max-content);
+		justify-content: center;
+		&tiles {
+			@include flex-direction-gap-width(row, 10px, max-content);
+		}
+	}
+}

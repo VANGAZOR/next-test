@@ -1,0 +1,17 @@
+[
+	{
+		"fullName": "Иванов Иван Иванович",
+		"email": "ivanov@ivan.ivan",
+		"phone": "+70000000000"
+	},
+	{
+		"fullName": "Петров Петр Петрович",
+		"email": "petrov@petr.petr",
+		"phone": "+70000000001"
+	},
+	{
+		"fullName": "Сидоров Сергей Сергеевич",
+		"email": "sidorov@sidor.sidor",
+		"phone": "+70000000002"
+	}
+]

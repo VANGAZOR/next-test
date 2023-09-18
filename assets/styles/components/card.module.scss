@@ -1,0 +1,17 @@
+.card {
+	background-color: rgb(208, 236, 208);
+	border-radius: 5px;
+	&list {
+		width: fit-content;
+		height: 20px;
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		justify-content: start;
+	}
+	&tiles {
+		width: 150px;
+		display: flex;
+		flex-direction: column;
+	}
+}
